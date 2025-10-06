@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-04T16:37:39 IST" name="Selective Execution Suite" finished-at="2025-07-04T16:37:42 IST" duration-ms="3050">
+    <groups>
+    </groups>
+    <test started-at="2025-07-04T16:37:39 IST" name="Only Required Tests" finished-at="2025-07-04T16:37:42 IST" duration-ms="3050">
+      <class name="tests.PrivateFormTests">
+        <test-method signature="testPrivateForm()[pri:0, instance:tests.PrivateFormTests@7f010382]" started-at="2025-07-04T16:37:39 IST" name="testPrivateForm" finished-at="2025-07-04T16:37:42 IST" duration-ms="3006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrivateForm -->
+      </class> <!-- tests.PrivateFormTests -->
+    </test> <!-- Only Required Tests -->
+  </suite> <!-- Selective Execution Suite -->
+</testng-results>
