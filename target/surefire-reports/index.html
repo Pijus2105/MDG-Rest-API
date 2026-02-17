@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +103,12 @@
                     <div class="method-list-content passed suite-Selective_Execution_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Selective_Execution_Suite" title="tests.PrivateFormTests" class="method navigator-link" hash-for-method="testPrivateForm">testPrivateForm</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Selective_Execution_Suite" title="tests.CreateUserTests" class="method navigator-link" hash-for-method="testCreateUser">testCreateUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selective_Execution_Suite" title="tests.LoginTests" class="method navigator-link" hash-for-method="testLogin">testLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Selective_Execution_Suite -->
@@ -121,14 +126,29 @@
           <div class="suite-Selective_Execution_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">tests.PrivateFormTests</span>
+              <span class="class-name">tests.LoginTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testPrivateForm">
-                  </a> <!-- testPrivateForm -->
-                  <span class="method-name">testPrivateForm</span>
+                  <a name="testLogin">
+                  </a> <!-- testLogin -->
+                  <span class="method-name">testLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selective_Execution_Suite-class-passed -->
+          <div class="suite-Selective_Execution_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CreateUserTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateUser">
+                  </a> <!-- testCreateUser -->
+                  <span class="method-name">testCreateUser</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -145,7 +165,8 @@
 &lt;suite name=&quot;Selective Execution Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Only Required Tests&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;tests.PrivateFormTests&quot;/&gt;
+      &lt;class name=&quot;tests.LoginTests&quot;/&gt;
+      &lt;class name=&quot;tests.CreateUserTests&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Only Required Tests --&gt;
 &lt;/suite&gt; &lt;!-- Selective Execution Suite --&gt;
@@ -159,7 +180,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Only Required Tests (1 class)</span>
+                <span class="test-name">Only Required Tests (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -185,16 +206,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testPrivateForm')
-data.setCell(0, 2, 'tests.PrivateFormTests')
-data.setCell(0, 3, 3006);
+data.setCell(0, 1, 'testCreateUser')
+data.setCell(0, 2, 'tests.CreateUserTests')
+data.setCell(0, 3, 3238);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testLogin')
+data.setCell(1, 2, 'tests.LoginTests')
+data.setCell(1, 3, 1866);
 window.suiteTableData['Selective_Execution_Suite']= { tableData: data, tableDiv: 'times-div-Selective_Execution_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Selective_Execution_Suite">
               </div> <!-- times-div-Selective_Execution_Suite -->
             </div> <!-- times-div -->
@@ -220,10 +245,24 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.PrivateFormTests</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">testPrivateForm</span>
+              <div class="chronological-class-name">tests.CreateUserTests</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">generateToken</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testLogin</span>
+                <span class="method-start">6454 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreateUserTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCreateUser</span>
+                <span class="method-start">8333 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

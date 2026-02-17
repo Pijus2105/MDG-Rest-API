@@ -1,5 +1,3 @@
-C:\Users\cx280\Documents\Vardian-REST\src\test\java\tests\DocumentsTests.java
-C:\Users\cx280\Documents\Vardian-REST\src\test\java\tests\FormTests.java
-C:\Users\cx280\Documents\Vardian-REST\src\test\java\tests\NewUserTests.java
-C:\Users\cx280\Documents\Vardian-REST\src\test\java\tests\PrivateFormTests.java
-C:\Users\cx280\Documents\Vardian-REST\src\test\java\tests\WorkOrderTests.java
+C:\Users\cx280\Documents\Vardian-REST\src\test\java\base\BaseTest.java
+C:\Users\cx280\Documents\Vardian-REST\src\test\java\tests\CreateUserTests.java
+C:\Users\cx280\Documents\Vardian-REST\src\test\java\tests\LoginTests.java

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="3.95" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="12.606" tests="2" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="surefire.suiteXmlFiles" value="testng.xml"/>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
@@ -16,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Users\cx280\jdk-17.0.12\bin"/>
-    <property name="sun.java.command" value="C:\Users\cx280\AppData\Local\Temp\surefire16176212880720162916\surefirebooter-20250704163738559_3.jar C:\Users\cx280\AppData\Local\Temp\surefire16176212880720162916 2025-07-04T16-37-38_097-jvmRun1 surefire-20250704163738559_1tmp surefire_0-20250704163738559_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\cx280\AppData\Local\Temp\surefire9490515228364128501\surefirebooter-20260217185005133_3.jar C:\Users\cx280\AppData\Local\Temp\surefire9490515228364128501 2026-02-17T18-50-04_200-jvmRun1 surefire-20260217185005133_1tmp surefire_0-20260217185005133_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\cx280\Documents\Vardian-REST\target\test-classes;C:\Users\cx280\Documents\Vardian-REST\target\classes;C:\Users\cx280\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\cx280\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\cx280\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\cx280\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\cx280\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\cx280\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\cx280\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\cx280\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\cx280\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\cx280\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\cx280\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\cx280\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\cx280\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\cx280\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\cx280\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\cx280\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\cx280\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\cx280\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\cx280\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\cx280\.m2\repository\org\json\json\20230227\json-20230227.jar;C:\Users\cx280\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.1\jackson-databind-2.16.1.jar;C:\Users\cx280\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.1\jackson-annotations-2.16.1.jar;C:\Users\cx280\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.1\jackson-core-2.16.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\cx280\AppData\Local\Temp\surefire16176212880720162916\surefirebooter-20250704163738559_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\cx280\AppData\Local\Temp\surefire9490515228364128501\surefirebooter-20260217185005133_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -50,24 +49,42 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Users\cx280\jdk-17.0.12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\cx280\jdk-17.0.12\bin;C:\Program Files\k6\;C:\Users\cx280\gradle-8.14.1\bin;C:\Users\cx280\apache-maven-3.9.10\bin;C:\Users\cx280\AppData\Local\Microsoft\WindowsApps;C:\Users\cx280\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\cx280\AppData\Roaming\npm;C:\Users\cx280\AppData\Local\Programs\Git\cmd;C:\Program Files (x86)\MongoDB Atlas CLI\;c:\Users\cx280\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;."/>
+    <property name="java.library.path" value="C:\Users\cx280\jdk-17.0.12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\cx280\jdk-17.0.12\bin;C:\Program Files\k6\;C:\Users\cx280\gradle-8.14.1\bin;C:\Users\cx280\apache-maven-3.9.10\bin;C:\Users\cx280\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\cx280\AppData\Local\Programs\Python\Python313\;C:\Users\cx280\AppData\Local\Programs\Python\Launcher\;C:\Users\cx280\AppData\Local\Microsoft\WindowsApps;C:\Users\cx280\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\cx280\AppData\Roaming\npm;C:\Users\cx280\AppData\Local\Programs\Git\cmd;C:\Program Files (x86)\MongoDB Atlas CLI\;c:\Users\cx280\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testPrivateForm" classname="tests.PrivateFormTests" time="3.008">
-    <system-out><![CDATA[{
-    "message": "Form created successfully."
-}
-{
-    "message": "Form created successfully."
-}
+  <testcase name="testLogin" classname="tests.LoginTests" time="1.848">
+    <system-out><![CDATA[TOKEN GENERATED IN BEFORE SUITE
+TOKEN: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiZDQ3ZjFhMTMwYjZhMWJlODI3MDA0YzIxZjUxMGM1MzY0MzU4ODk5MGNhZTBmYzBiNjIyNTUzMzBmMDM4MDE1MjIxODZkMzgxMmZkZDM5ZmM2Zjg3ODhhMDMxMDEyOTIzMWUyNmE0NWJkNWQ3OTEwMGJjYTIwOTU4MTM4ZDE1YTkzMTcyYTc4NmE5ZGRlNWI2ODUwODM5ZWQ4MTc2NmRhODJjM2JmZDVlZDcwNWQ1MjVhOGZiMTc3Y2MzNGZlZjUzNjY1MzgyY2UzNGE0ZTNhODRiNzZkYTA1ZWUyOTVmNjg2ZDRjYTBlODU4OTE1Y2NmODM3NTFjMGQyNzk4MmI4ZmEyNzMyNWU1NWFlNzhkYmM3NjVjOTdjNDRhYWQwZmJkNTFhZmM3YmZmYzBmOGU1MjhiZGU1ZTU1MzE0YzNmZWZmMDc5ZGUwOGFhYzU1NjA2YTdjMTM4MTA1NTA2ODAxMjQ2YTA4N2U1OWVlOGVmNmE1ZDU2NzhlODY5Y2RhOTA5NjEzNTc0ZWQ3MGY5YzdmNzcwZWY3NTQwMGY5MmJhZmYyYzk1N2RjNjM5NjQyN2QyYmFiNmM4MTE5MDA2NjkxMGFmNGQ5NDdkYjY0YTQ2Nzk3OTg5MTBlYTUyZjY3MTYwIiwiaXYiOiIxMjVmMzhlMGQwODY2ZWVmYzZkY2EwNTYzOGMzODQyNSIsIlBlcm1pc3Npb24iOlt7InBhdGgiOiIxMjMiLCJwZXJtaXNzaW9ucyI6eyJjb21wYW55LW1hbmFnZW1lbnQiOlsiZGVsZXRlIiwiZWRpdCIsInZpZXciLCJjcmVhdGUiXSwicmVwb3J0IjpbImRlbGV0ZSIsImVkaXQiLCJ2aWV3IiwiY3JlYXRlIl0sImV2ZW50cyI6WyJkZWxldGUiLCJlZGl0IiwidmlldyIsImNyZWF0ZSJdLCJyb2xlcy1hbmQtcGVybWlzc2lvbiI6WyJkZWxldGUiLCJlZGl0IiwidmlldyIsImNyZWF0ZSJdLCJkZXZpY2UiOlsiZGVsZXRlIiwiZWRpdCIsInZpZXciLCJjcmVhdGUiXSwidXNlci1tYW5hZ2VtZW50IjpbImRlbGV0ZSIsImVkaXQiLCJ2aWV3IiwiY3JlYXRlIl0sInJvYWRmcmVpZ2h0IjpbImRlbGV0ZSIsImVkaXQiLCJ2aWV3IiwiY3JlYXRlIl0sInNlYWZyZWlnaHQiOlsiZGVsZXRlIiwiZWRpdCIsInZpZXciLCJjcmVhdGUiXSwiYWlyZnJlaWdodCI6WyJkZWxldGUiLCJlZGl0IiwidmlldyIsImNyZWF0ZSJdfX1dLCJpYXQiOjE3NzEzMzQ0MTQsImV4cCI6MTc3MTMzODAxNH0._altY7ksLS6V-6zEuzoCGPnWPGAo8Zr0IOXSu1J23ZE
+WORKSPACE PATH: 123
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
+  </testcase>
+  <testcase name="testCreateUser" classname="tests.CreateUserTests" time="3.23">
+    <system-out><![CDATA[TOKEN USED IN CREATE USER: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiZDQ3ZjFhMTMwYjZhMWJlODI3MDA0YzIxZjUxMGM1MzY0MzU4ODk5MGNhZTBmYzBiNjIyNTUzMzBmMDM4MDE1MjIxODZkMzgxMmZkZDM5ZmM2Zjg3ODhhMDMxMDEyOTIzMWUyNmE0NWJkNWQ3OTEwMGJjYTIwOTU4MTM4ZDE1YTkzMTcyYTc4NmE5ZGRlNWI2ODUwODM5ZWQ4MTc2NmRhODJjM2JmZDVlZDcwNWQ1MjVhOGZiMTc3Y2MzNGZlZjUzNjY1MzgyY2UzNGE0ZTNhODRiNzZkYTA1ZWUyOTVmNjg2ZDRjYTBlODU4OTE1Y2NmODM3NTFjMGQyNzk4MmI4ZmEyNzMyNWU1NWFlNzhkYmM3NjVjOTdjNDRhYWQwZmJkNTFhZmM3YmZmYzBmOGU1MjhiZGU1ZTU1MzE0YzNmZWZmMDc5ZGUwOGFhYzU1NjA2YTdjMTM4MTA1NTA2ODAxMjQ2YTA4N2U1OWVlOGVmNmE1ZDU2NzhlODY5Y2RhOTA5NjEzNTc0ZWQ3MGY5YzdmNzcwZWY3NTQwMGY5MmJhZmYyYzk1N2RjNjM5NjQyN2QyYmFiNmM4MTE5MDA2NjkxMGFmNGQ5NDdkYjY0YTQ2Nzk3OTg5MTBlYTUyZjY3MTYwIiwiaXYiOiIxMjVmMzhlMGQwODY2ZWVmYzZkY2EwNTYzOGMzODQyNSIsIlBlcm1pc3Npb24iOlt7InBhdGgiOiIxMjMiLCJwZXJtaXNzaW9ucyI6eyJjb21wYW55LW1hbmFnZW1lbnQiOlsiZGVsZXRlIiwiZWRpdCIsInZpZXciLCJjcmVhdGUiXSwicmVwb3J0IjpbImRlbGV0ZSIsImVkaXQiLCJ2aWV3IiwiY3JlYXRlIl0sImV2ZW50cyI6WyJkZWxldGUiLCJlZGl0IiwidmlldyIsImNyZWF0ZSJdLCJyb2xlcy1hbmQtcGVybWlzc2lvbiI6WyJkZWxldGUiLCJlZGl0IiwidmlldyIsImNyZWF0ZSJdLCJkZXZpY2UiOlsiZGVsZXRlIiwiZWRpdCIsInZpZXciLCJjcmVhdGUiXSwidXNlci1tYW5hZ2VtZW50IjpbImRlbGV0ZSIsImVkaXQiLCJ2aWV3IiwiY3JlYXRlIl0sInJvYWRmcmVpZ2h0IjpbImRlbGV0ZSIsImVkaXQiLCJ2aWV3IiwiY3JlYXRlIl0sInNlYWZyZWlnaHQiOlsiZGVsZXRlIiwiZWRpdCIsInZpZXciLCJjcmVhdGUiXSwiYWlyZnJlaWdodCI6WyJkZWxldGUiLCJlZGl0IiwidmlldyIsImNyZWF0ZSJdfX1dLCJpYXQiOjE3NzEzMzQ0MTQsImV4cCI6MTc3MTMzODAxNH0._altY7ksLS6V-6zEuzoCGPnWPGAo8Zr0IOXSu1J23ZE
+{
+    "status": {
+        "message": "User created successfully",
+        "status_code": 201,
+        "success": true
+    },
+    "data": null
+}
+{
+    "status": {
+        "message": "User created successfully",
+        "status_code": 201,
+        "success": true
+    },
+    "data": null
+}
+Create URL: https://api.mdgomnia.com/customer/api/users
+]]></system-out>
   </testcase>
 </testsuite>

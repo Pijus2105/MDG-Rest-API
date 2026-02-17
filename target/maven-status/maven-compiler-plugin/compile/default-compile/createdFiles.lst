@@ -1,11 +1,8 @@
-base\BaseTest.class
 endpoints\Endpoints.class
 config\ConfigurationReader.class
-payloads\Form.class
-payloads\New_User.class
 autoNameGenearator\WorkOrderGenerator.class
-payloads\WO_COO.class
+payloads\CreateUser.class
 autoNameGenearator\FormNameGenerator.class
-payloads\Documents.class
-payloads\PrivateForm.class
+payloads\Login.class
+utils\TokenManager.class
 utils\ApiUtils.class

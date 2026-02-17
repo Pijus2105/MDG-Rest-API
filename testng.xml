@@ -5,8 +5,9 @@
             <!-- <class name="tests.WorkOrderTests"/> -->
             <!-- <class name="tests.DocumentsTests"/> -->
             <!-- <class name="tests.NewUserTests"/> -->
-            <!-- <class name="tests.FormTests"/> -->
-            <class name="tests.PrivateFormTests"/>
+                        <class name="tests.LoginTests"/>
+
+            <class name="tests.CreateUserTests"/>
         </classes>
     </test>
 </suite>

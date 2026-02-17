@@ -1,5 +1,3 @@
-tests\NewUserTests.class
-tests\WorkOrderTests.class
-tests\DocumentsTests.class
-tests\PrivateFormTests.class
-tests\FormTests.class
+base\BaseTest.class
+tests\CreateUserTests.class
+tests\LoginTests.class
