@@ -1,8 +1,8 @@
 endpoints\Endpoints.class
 config\ConfigurationReader.class
-autoNameGenearator\WorkOrderGenerator.class
+autoGenearator\EmailGenerator.class
 payloads\CreateUser.class
-autoNameGenearator\FormNameGenerator.class
+autoGenearator\WorkOrderGenerator.class
 payloads\Login.class
 utils\TokenManager.class
 utils\ApiUtils.class

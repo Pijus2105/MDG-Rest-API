@@ -1,8 +1,8 @@
-C:\Users\cx280\Documents\Vardian-REST\src\main\java\autoNameGenearator\FormNameGenerator.java
-C:\Users\cx280\Documents\Vardian-REST\src\main\java\autoNameGenearator\WorkOrderGenerator.java
-C:\Users\cx280\Documents\Vardian-REST\src\main\java\config\ConfigurationReader.java
-C:\Users\cx280\Documents\Vardian-REST\src\main\java\endpoints\Endpoints.java
-C:\Users\cx280\Documents\Vardian-REST\src\main\java\payloads\CreateUser.java
-C:\Users\cx280\Documents\Vardian-REST\src\main\java\payloads\Login.java
-C:\Users\cx280\Documents\Vardian-REST\src\main\java\utils\ApiUtils.java
-C:\Users\cx280\Documents\Vardian-REST\src\main\java\utils\TokenManager.java
+C:\Users\cx280\Documents\MDG-Rest-API\src\main\java\autoGenearator\EmailGenerator.java
+C:\Users\cx280\Documents\MDG-Rest-API\src\main\java\autoGenearator\WorkOrderGenerator.java
+C:\Users\cx280\Documents\MDG-Rest-API\src\main\java\config\ConfigurationReader.java
+C:\Users\cx280\Documents\MDG-Rest-API\src\main\java\endpoints\Endpoints.java
+C:\Users\cx280\Documents\MDG-Rest-API\src\main\java\payloads\CreateUser.java
+C:\Users\cx280\Documents\MDG-Rest-API\src\main\java\payloads\Login.java
+C:\Users\cx280\Documents\MDG-Rest-API\src\main\java\utils\ApiUtils.java
+C:\Users\cx280\Documents\MDG-Rest-API\src\main\java\utils\TokenManager.java

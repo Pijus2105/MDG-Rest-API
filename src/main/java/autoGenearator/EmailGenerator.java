@@ -1,23 +1,28 @@
-package autoNameGenearator;
+package autoGenearator;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.text.DecimalFormat;
 
-public class FormNameGenerator {
-    private static final String BASE_NAME = "SmartEntry_";
-    private static final String FILE_PATH = "form_counter.txt"; 
+public class EmailGenerator {
+    private static final String EMAIL_NAME = "SmartEntry_";
+    private static final String FILE_PATH = "email_counter.txt"; 
     private static final DecimalFormat format = new DecimalFormat("000");
 
-    public static String getNextFormName() {
-        int lastNumber = readLastUsedNumber();
+    public static String getNextEmail() {
+        int lastNumber = readLastUsedEmail();
         int nextNumber = lastNumber + 1;
 
         saveNumberToFile(nextNumber); 
 
-        return BASE_NAME + format.format(nextNumber); 
+        return EMAIL_NAME + format.format(nextNumber) + "@yopmail.com"; 
     }
 
-    private static int readLastUsedNumber() {
+    private static int readLastUsedEmail() {
         File file = new File(FILE_PATH);
 
         if (!file.exists()) {
