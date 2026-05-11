@@ -2,12 +2,12 @@
 <suite name="Selective Execution Suite">
     <test name="Only Required Tests">
         <classes>
-            <!-- <class name="tests.WorkOrderTests"/> -->
-            <!-- <class name="tests.DocumentsTests"/> -->
-            <!-- <class name="tests.NewUserTests"/> -->
+     
                         <class name="tests.LoginTests"/>
-
-            <class name="tests.CreateUserTests"/>
+                        <class name="tests.CreateUserTests"/>
+                        
+                        <!-- <class name="tests.CreateDeviceTests"/> -->
+            
         </classes>
     </test>
 </suite>

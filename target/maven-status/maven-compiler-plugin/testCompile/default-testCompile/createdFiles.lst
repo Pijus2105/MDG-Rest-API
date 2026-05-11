@@ -1,3 +1,4 @@
 base\BaseTest.class
 tests\CreateUserTests.class
+tests\CreateDeviceTests.class
 tests\LoginTests.class

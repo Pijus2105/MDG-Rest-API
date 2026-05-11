@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.text.DecimalFormat;
 
 public class EmailGenerator {
-    private static final String EMAIL_NAME = "SmartEntry_";
+    private static final String EMAIL_NAME = "smart_";
     private static final String FILE_PATH = "email_counter.txt"; 
     private static final DecimalFormat format = new DecimalFormat("000");
 

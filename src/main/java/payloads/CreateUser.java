@@ -1,16 +1,15 @@
 package payloads;
 
-import org.json.JSONObject;
+import frame.CreateUserRequest;
 
 import autoGenearator.EmailGenerator;
 
 public class CreateUser {
     
-    public static String createUser(){
-        JSONObject payload = new JSONObject();
-        payload.put("email", EmailGenerator.getNextEmail());
-        payload.put("role", "c84de1ae-2df7-434e-a2f8-0a3886bba9f2");
+    
 
-        return payload.toString();
+        public static CreateUserRequest createUserPayload() {
+             return new CreateUserRequest(EmailGenerator.getNextEmail(), "b61ef850-4f77-46b5-8680-c83dabe87127");
+        }
     }
-}
+

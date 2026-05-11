@@ -1,26 +1,23 @@
 package tests;
 
 import java.util.Base64;
-
-import org.testng.annotations.Test;
-
-import config.ConfigurationReader;
-import endpoints.Endpoints;
-import payloads.Login;
-import utils.ApiUtils;
-import utils.TokenManager;
-
-import com.fasterxml.jackson.databind.ObjectMapper;
-
-import io.restassured.RestAssured;
-import io.restassured.response.Response;
-
-import static org.testng.Assert.assertEquals;
-
 import java.util.List;
 import java.util.Map;
 
+import static org.testng.Assert.assertEquals;
+import org.testng.annotations.Test;
+
 import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+import config.ConfigurationReader;
+import endpoints.Endpoints;
+import frame.LoginRequest;
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+import payloads.Login;
+import utils.ApiUtils;
+import utils.TokenManager;
 
 public class LoginTests {
 
@@ -32,7 +29,7 @@ public class LoginTests {
 
         Response response = ApiUtils.postRequest(
                 baseUrl + Endpoints.LOGIN,
-                Login.createLoginload(),
+                Login.createLoginPayload(),
                 null
         );
 

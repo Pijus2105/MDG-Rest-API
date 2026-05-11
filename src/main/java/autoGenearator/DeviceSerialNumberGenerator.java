@@ -1,32 +1,30 @@
 package autoGenearator;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.text.DecimalFormat;
 
-public class WorkOrderGenerator {
-    private static final String BASE_NAME = "Smart Work Order_";
-    private static final String FILE_PATH = "form_counter.txt"; 
-    private static final DecimalFormat format = new DecimalFormat("000");
+public class DeviceSerialNumberGenerator {
 
-    public static String geNexttWorkOrderName() {
+    private static final String BASE_SERIAL = "EFL24A156";  
+    private static final String FILE_PATH = "serial_counter.txt";
+    private static final DecimalFormat FORMAT = new DecimalFormat("000");
+
+    public static String getNextSerialNumber() {
+
         int lastNumber = readLastUsedNumber();
         int nextNumber = lastNumber + 1;
 
-        saveNumberToFile(nextNumber); 
+        saveNumberToFile(nextNumber);
 
-        return BASE_NAME + format.format(nextNumber); 
+        return BASE_SERIAL + FORMAT.format(nextNumber);
     }
 
     private static int readLastUsedNumber() {
+
         File file = new File(FILE_PATH);
 
         if (!file.exists()) {
-            return 0; 
+            return 0;
         }
 
         try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
@@ -34,14 +32,15 @@ public class WorkOrderGenerator {
             if (line != null) {
                 return Integer.parseInt(line.trim());
             }
-        } catch (IOException | NumberFormatException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
 
-        return 0; 
+        return 0;
     }
 
     private static void saveNumberToFile(int number) {
+
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(FILE_PATH))) {
             writer.write(String.valueOf(number));
         } catch (IOException e) {

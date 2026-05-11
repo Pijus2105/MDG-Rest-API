@@ -1,7 +1,10 @@
+C:\Users\cx280\Documents\MDG-Rest-API\src\main\java\autoGenearator\DeviceSerialNumberGenerator.java
 C:\Users\cx280\Documents\MDG-Rest-API\src\main\java\autoGenearator\EmailGenerator.java
-C:\Users\cx280\Documents\MDG-Rest-API\src\main\java\autoGenearator\WorkOrderGenerator.java
 C:\Users\cx280\Documents\MDG-Rest-API\src\main\java\config\ConfigurationReader.java
 C:\Users\cx280\Documents\MDG-Rest-API\src\main\java\endpoints\Endpoints.java
+C:\Users\cx280\Documents\MDG-Rest-API\src\main\java\frame\CreateUserRequest.java
+C:\Users\cx280\Documents\MDG-Rest-API\src\main\java\frame\LoginRequest.java
+C:\Users\cx280\Documents\MDG-Rest-API\src\main\java\payloads\CreateDevicePayload.java
 C:\Users\cx280\Documents\MDG-Rest-API\src\main\java\payloads\CreateUser.java
 C:\Users\cx280\Documents\MDG-Rest-API\src\main\java\payloads\Login.java
 C:\Users\cx280\Documents\MDG-Rest-API\src\main\java\utils\ApiUtils.java

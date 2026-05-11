@@ -1,7 +1,6 @@
 package tests;
 
 import static org.testng.Assert.assertEquals;
-
 import org.testng.annotations.Test;
 
 import base.BaseTest;
@@ -17,14 +16,14 @@ public class CreateUserTests extends BaseTest {
 
     @Test
     public void testCreateUser(){
-        String baseUrl = ConfigurationReader.get("baseUrl");
+        String customerbaseUrl = ConfigurationReader.get("customerbaseUrl");
         RestAssured.useRelaxedHTTPSValidation();
                 String token = TokenManager.getToken();
 System.out.println("TOKEN USED IN CREATE USER: " + token);
 
-        Response response = ApiUtils.postRequest(baseUrl + Endpoints.CREATE_USER, CreateUser.createUser(), token);
+        Response response = ApiUtils.postRequest(customerbaseUrl + Endpoints.CREATE_USER, CreateUser.createUserPayload(), token);
         System.out.println(response.prettyPrint());
-        System.out.println("Create URL: " + baseUrl + Endpoints.CREATE_USER);
+        System.out.println("Create URL: " + customerbaseUrl + Endpoints.CREATE_USER);
 
         assertEquals(response.getStatusCode(), 201, "Expected status code 201 Created");
     }

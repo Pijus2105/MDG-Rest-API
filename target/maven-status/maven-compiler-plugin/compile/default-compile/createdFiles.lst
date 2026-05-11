@@ -1,8 +1,11 @@
 endpoints\Endpoints.class
 config\ConfigurationReader.class
+frame\CreateUserRequest.class
 autoGenearator\EmailGenerator.class
+frame\LoginRequest.class
+autoGenearator\DeviceSerialNumberGenerator.class
 payloads\CreateUser.class
-autoGenearator\WorkOrderGenerator.class
 payloads\Login.class
+payloads\CreateDevicePayload.class
 utils\TokenManager.class
 utils\ApiUtils.class
