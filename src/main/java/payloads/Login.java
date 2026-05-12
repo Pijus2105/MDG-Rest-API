@@ -1,6 +1,6 @@
 package payloads;
 
-import frame.LoginRequest;
+import pojo.LoginRequest;
 
 public class Login {
     

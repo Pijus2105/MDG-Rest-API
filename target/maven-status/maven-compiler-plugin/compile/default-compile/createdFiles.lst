@@ -1,8 +1,8 @@
 endpoints\Endpoints.class
 config\ConfigurationReader.class
-frame\CreateUserRequest.class
+pojo\CreateUserRequest.class
+pojo\LoginRequest.class
 autoGenearator\EmailGenerator.class
-frame\LoginRequest.class
 autoGenearator\DeviceSerialNumberGenerator.class
 payloads\CreateUser.class
 payloads\Login.class

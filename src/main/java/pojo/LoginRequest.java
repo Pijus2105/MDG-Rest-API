@@ -1,4 +1,4 @@
-package frame;
+package pojo;
 
 public class LoginRequest {
 

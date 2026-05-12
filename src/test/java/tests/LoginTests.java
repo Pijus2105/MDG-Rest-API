@@ -12,10 +12,10 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import config.ConfigurationReader;
 import endpoints.Endpoints;
-import frame.LoginRequest;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import payloads.Login;
+import pojo.LoginRequest;
 import utils.ApiUtils;
 import utils.TokenManager;
 
