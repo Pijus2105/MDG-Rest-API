@@ -1,5 +1,4 @@
 endpoints\Endpoints.class
-config\ConfigurationReader.class
 pojo\CreateUserRequest.class
 pojo\LoginRequest.class
 autoGenearator\EmailGenerator.class
@@ -7,5 +6,3 @@ autoGenearator\DeviceSerialNumberGenerator.class
 payloads\CreateUser.class
 payloads\Login.class
 payloads\CreateDevicePayload.class
-utils\TokenManager.class
-utils\ApiUtils.class

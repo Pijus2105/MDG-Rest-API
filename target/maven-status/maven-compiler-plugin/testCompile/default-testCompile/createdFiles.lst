@@ -1,4 +1,9 @@
 base\BaseTest.class
+config\ConfigurationReader.class
+stepDefinitions\LoginSteps.class
 tests\CreateUserTests.class
 tests\CreateDeviceTests.class
 tests\LoginTests.class
+utils\TokenManager.class
+runner\TestRunner.class
+utils\ApiUtils.class

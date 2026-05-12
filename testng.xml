@@ -3,7 +3,6 @@
     <test name="Only Required Tests">
         <classes>
      
-                        <class name="tests.LoginTests"/>
                         <class name="tests.CreateUserTests"/>
                         
                         <!-- <class name="tests.CreateDeviceTests"/> -->
