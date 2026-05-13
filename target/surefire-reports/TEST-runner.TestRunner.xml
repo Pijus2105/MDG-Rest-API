@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="11.65" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="11.359" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Users\cx280\jdk-17.0.12\bin"/>
-    <property name="sun.java.command" value="C:\Users\cx280\AppData\Local\Temp\surefire10686349211370927794\surefirebooter-20260513110909734_3.jar C:\Users\cx280\AppData\Local\Temp\surefire10686349211370927794 2026-05-13T11-09-09_391-jvmRun1 surefire-20260513110909734_1tmp surefire_0-20260513110909734_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\cx280\AppData\Local\Temp\surefire12120574188127197049\surefirebooter-20260513120431178_3.jar C:\Users\cx280\AppData\Local\Temp\surefire12120574188127197049 2026-05-13T12-04-30_683-jvmRun1 surefire-20260513120431178_1tmp surefire_0-20260513120431178_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="TestRunner"/>
     <property name="surefire.test.class.path" value="C:\Users\cx280\Documents\MDG-Rest-API\target\test-classes;C:\Users\cx280\Documents\MDG-Rest-API\target\classes;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-java\7.13.0\cucumber-java-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-core\7.13.0\cucumber-core-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-gherkin\7.13.0\cucumber-gherkin-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.13.0\cucumber-gherkin-messages-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\cx280\.m2\repository\io\cucumber\datatable\7.13.0\datatable-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-plugin\7.13.0\cucumber-plugin-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\docstring\7.13.0\docstring-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\cx280\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\cx280\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-testng\7.13.0\cucumber-testng-7.13.0.jar;C:\Users\cx280\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\cx280\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\cx280\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\cx280\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\cx280\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\cx280\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\cx280\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\cx280\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\cx280\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\cx280\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\cx280\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\cx280\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\cx280\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\cx280\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\cx280\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\cx280\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\cx280\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\cx280\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\cx280\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\cx280\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\cx280\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\cx280\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\cx280\.m2\repository\org\json\json\20240303\json-20240303.jar;"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\cx280\AppData\Local\Temp\surefire10686349211370927794\surefirebooter-20260513110909734_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\cx280\AppData\Local\Temp\surefire12120574188127197049\surefirebooter-20260513120431178_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -57,31 +57,81 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Valid login returns 200 with token&quot;, &quot;Login API&quot;](1)" classname="runner.TestRunner" time="8.766">
+  <testcase name="runScenario[&quot;Valid login returns 200 with token&quot;, &quot;Login API&quot;](1)" classname="runner.TestRunner" time="8.787">
+    <failure message="The step &apos;login response status should be &quot;200&quot;&apos; is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@Then(&quot;login response status should be {string}&quot;)&#10;public void login_response_status_should_be(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+The step 'login response status should be "200"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("login response status should be {string}")
+public void login_response_status_should_be(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
     <system-out><![CDATA[
 @Login @Smoke @Positive
 Scenario: Valid login returns 200 with token &amp#27;[90m# src/test/resources/feature/login.feature:7&amp#27;[0m
-TOKEN       : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiZTI2Mzk0Mjk0NzZlYmY4ZTg1NTZjMzNlOTIwOTBjMjM5OWUzOGM4NGQ1MzFiOTcxNDMzNzMyNmEzMzhiMzgzN2ZjZjcyNTMwYTY4MTQ1ZmM2YmQ3MGYzYjZmYWJlNTk3N2QyYTRjMzk0ZDM3YTY0NjVmY2FhNWM3NGI3YjVkOTJiMzQ3NDIyODIwZWZmZWM2OWRkYTE1NjgyNjY3NzQyNThlNjQwY2IyNGEyNWU4YjE5N2Y2ZWYyNjgxYTdmZWMwMTI4N2IxMDAzYmY5ODAxMjc0MjBiNmYzMmMxYzVlYWI4NTQ0ZmUzNjk4Yzk0ZDQwYjgzY2UyMmNjNWFmMWQyZGMwNzI2YTg4NmM1ZGE0YTJjYjZmZDdmY2Y2ODQ4YmNmYjdmY2FkYzhmYTIwMzY5YTQ2NTk4NDkzZTc5MjA5ZDgwNDg3YWRiZmY2OTVmM2NiM2EwYTdlNDZhYmY3NmM1Mjc3MzI5OGM0Y2ZjZWUzZWQ1YjFlYWI2M2ViODk3MGZjMzU4N2U4NzFkZGNhNTYxZGM4NWFjYjI3MDNmMTNmMzY5OWJhOTA1MjYwNGM0ZTAyZWFkYjllIiwiaXYiOiJkMDc5YzY3YWUzMmVkYWMwNzU3MzA2Y2NkMWU1MTQ5OSIsIlBlcm1pc3Npb24iOlt7InBhdGgiOiI5MzkiLCJwZXJtaXNzaW9ucyI6eyJjbzItZXN0aW1hdGlvbiI6WyJkZWxldGUiLCJlZGl0IiwidmlldyIsImNyZWF0ZSJdLCJjb21wYW55LW1hbmFnZW1lbnQiOlsidmlldyIsImVkaXQiLCJkZWxldGUiLCJjcmVhdGUiXSwicmVwb3J0IjpbInZpZXciLCJlZGl0IiwiZGVsZXRlIiwiY3JlYXRlIl0sImV2ZW50cyI6WyJ2aWV3IiwiZWRpdCIsImRlbGV0ZSIsImNyZWF0ZSJdLCJyb2xlcy1hbmQtcGVybWlzc2lvbiI6WyJ2aWV3IiwiZWRpdCIsImRlbGV0ZSIsImNyZWF0ZSJdLCJkZXZpY2UiOlsidmlldyIsImVkaXQiLCJkZWxldGUiLCJjcmVhdGUiXSwidXNlci1tYW5hZ2VtZW50IjpbInZpZXciLCJlZGl0IiwiZGVsZXRlIiwiY3JlYXRlIl0sInJvYWRmcmVpZ2h0IjpbInZpZXciLCJlZGl0IiwiZGVsZXRlIiwiY3JlYXRlIl0sInNlYWZyZWlnaHQiOlsidmlldyIsImVkaXQiLCJkZWxldGUiLCJjcmVhdGUiXSwiYWlyZnJlaWdodCI6WyJ2aWV3IiwiZWRpdCIsImRlbGV0ZSIsImNyZWF0ZSJdfX1dLCJpYXQiOjE3Nzg2NTA3NTgsImV4cCI6MTc3ODY1NDM1OH0.3ZX4qkDSIxD4__utcBjSvzA4m6ye0-U2v8aTW8t7HJY
+TOKEN       : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiOGFkYTc5ZmE3ODRhMTkyYTZhODhkNzg5NGM3ZThlODBmZDY4NzdhZjcyMDQ2NDc1NDg1NDBkZDc3ZTMwYTBmZmFiZjNjYjE4OGUwZTk4OGQ4NWMyZDk3ODkyMDc3ZGI4NDE5YTc5NDg1MTQ4MjQ5NTdjYzU3MWU4YzhjNDNkNjFjODYzZTk1ZjFhYmVhNmNhMWVhM2IxZTAyNzBhMzYzMDUzNzk1ZDc5YTFlOWExNDYyZTA5ZGJhMDhmMGYyMjYzMTIzMTIwMGMzNjY2ZmNiMzNjZDI0MDg1YzUxMmUyMmU2NWYyNDQzMGNmZjc0Yzc4MTM5NDI2ZDA1ZjczMmY0MjVmODM5NTVhODc1MzgwOTRiMmRmZjdhMzk4NTkwOTdkY2E3YjRiMmRmOWJiMjYyYjE1NTgzNzMzMDJmZDQwMjJlYTJhNmE0ZTdhNjY3NWY2YTM1Y2VlNmQ3MWU1OGQyZjAxMDM4NjE3ODVhZjU3MzZmNDVhMzVjMzBhMDEyZmY1NmI3OWMwNWNlZmVhZTYxMjNjNjE1OTBjODQzMmIyODJlYzI5ZGIzM2M0MDgxNDQzMmI4YzUxIiwiaXYiOiJlMzZhNTJlMWU3NDY5MGIzNDU1NDZmMzcyMmNkZDYyYyIsIlBlcm1pc3Npb24iOlt7InBhdGgiOiI5MzkiLCJwZXJtaXNzaW9ucyI6eyJjbzItZXN0aW1hdGlvbiI6WyJkZWxldGUiLCJlZGl0IiwidmlldyIsImNyZWF0ZSJdLCJjb21wYW55LW1hbmFnZW1lbnQiOlsidmlldyIsImVkaXQiLCJkZWxldGUiLCJjcmVhdGUiXSwicmVwb3J0IjpbInZpZXciLCJlZGl0IiwiZGVsZXRlIiwiY3JlYXRlIl0sImV2ZW50cyI6WyJ2aWV3IiwiZWRpdCIsImRlbGV0ZSIsImNyZWF0ZSJdLCJyb2xlcy1hbmQtcGVybWlzc2lvbiI6WyJ2aWV3IiwiZWRpdCIsImRlbGV0ZSIsImNyZWF0ZSJdLCJkZXZpY2UiOlsidmlldyIsImVkaXQiLCJkZWxldGUiLCJjcmVhdGUiXSwidXNlci1tYW5hZ2VtZW50IjpbInZpZXciLCJlZGl0IiwiZGVsZXRlIiwiY3JlYXRlIl0sInJvYWRmcmVpZ2h0IjpbInZpZXciLCJlZGl0IiwiZGVsZXRlIiwiY3JlYXRlIl0sInNlYWZyZWlnaHQiOlsidmlldyIsImVkaXQiLCJkZWxldGUiLCJjcmVhdGUiXSwiYWlyZnJlaWdodCI6WyJ2aWV3IiwiZWRpdCIsImRlbGV0ZSIsImNyZWF0ZSJdfX1dLCJpYXQiOjE3Nzg2NTQwNzksImV4cCI6MTc3ODY1NzY3OX0.G4dFjK_6tiw77cXIt4h9zNgw7b8PA4fFKR31peSj2Rk
 WORKSPACE   : 939
 Token Generated in Hooks @Before
 Login credentials ready
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser has valid login credentials&amp#27;[0m     &amp#27;[90m# stepDefinition.LoginSteps.userHasValidCredentials()&amp#27;[0m
 Status  : 200
-Time    : 1546ms
+Time    : 1417ms
 Body    : {
     "status": {
         "message": "User Login successfully",
         "status_code": 200,
         "success": true
     },
-    "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiM2U5MGIxMmE5MDBmY2QwYzEzNTRjODFkYmQwOThjNzA0OTFiMDU2YzUyY2RlNjlhMTk5M2JlY2ZmOGZhYjM0NjE2YjBjNzgzMWJjZTBhNGE0YWZlNWUxMzgwYzJmODc0NmU2MWNkMGFlMzVjZmQ0NTc3MGU3YTc2MzliZmVmZDJiNmI1ZDI2YjY1Mzk2Zjg5ZDAxZGU1Y2IwOGZiODg3YjAzZTZiNmJjMjgzYTVjZTQ0N2FjNDVkZTY2ODc3ZmFiZjc5NzAwYzEyZTA0NTg0MmU0NTdiZTcxMjQ1Y2M1YTU2NzAwODBjNDE2NjlkMDMzYmY0NDZiYmVkZWNiYjUzZWEwOWI1ZDgzZTM4ZWRlNmNlMTA2ZTY2MDdkNDUyYmFlYjA4ZDBlMTQ1ZDU4NTI1YzA1ODEzOTA4MzJmOTRlMjRiMjljNmMwMzkyODVlNmZjNTY4M2VkYjg2ZjBjMTg2NGIyZThmZjg5MTY0ODViMTc5NWU3NDc4M2UzOTE2MDQ0MzY2NDY4YjVlMjEyODMyNTQwOWZhNWM0NGE1MjVjZTRlZTFmZTVkN2I3MmIxMTM1MTM5ZjRlIiwiaXYiOiIyNjkzZDU1MjIwZTY0MTc4ZDVmMDgxZDExMmU2YWE5MiIsIlBlcm1pc3Npb24iOlt7InBhdGgiOiI5MzkiLCJwZXJtaXNzaW9ucyI6eyJjbzItZXN0aW1hdGlvbiI6WyJkZWxldGUiLCJlZGl0IiwidmlldyIsImNyZWF0ZSJdLCJjb21wYW55LW1hbmFnZW1lbnQiOlsidmlldyIsImVkaXQiLCJkZWxldGUiLCJjcmVhdGUiXSwicmVwb3J0IjpbInZpZXciLCJlZGl0IiwiZGVsZXRlIiwiY3JlYXRlIl0sImV2ZW50cyI6WyJ2aWV3IiwiZWRpdCIsImRlbGV0ZSIsImNyZWF0ZSJdLCJyb2xlcy1hbmQtcGVybWlzc2lvbiI6WyJ2aWV3IiwiZWRpdCIsImRlbGV0ZSIsImNyZWF0ZSJdLCJkZXZpY2UiOlsidmlldyIsImVkaXQiLCJkZWxldGUiLCJjcmVhdGUiXSwidXNlci1tYW5hZ2VtZW50IjpbInZpZXciLCJlZGl0IiwiZGVsZXRlIiwiY3JlYXRlIl0sInJvYWRmcmVpZ2h0IjpbInZpZXciLCJlZGl0IiwiZGVsZXRlIiwiY3JlYXRlIl0sInNlYWZyZWlnaHQiOlsidmlldyIsImVkaXQiLCJkZWxldGUiLCJjcmVhdGUiXSwiYWlyZnJlaWdodCI6WyJ2aWV3IiwiZWRpdCIsImRlbGV0ZSIsImNyZWF0ZSJdfX1dLCJpYXQiOjE3Nzg2NTA3NjEsImV4cCI6MTc3ODY1NDM2MX0.EQt9Lwh0vlC-j-ScfDtkaX1b4Re7lYwO2GdfbJDqT6k"
+    "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiOWU2MTQwNjJjNDIwNzk2MmRiMzRkZTBjMGY3ODI4MDg0ZjgyY2ViNGEwOWE1NGVjMzc2MDQ0Y2I0ZWI4Nzg1ZDkzNTUwZjA1MjRmMjUxZTg3Nzk1NzY1ZmZjZWUzMjk0ZTUxY2MxZDZhZjljOGEzYmUxNTZlMmFiOTExOWUyYTMxNzAyNGMwNzI2MTcyMzY1OWEwNGI1NmNkNWVkYjhiZjY0YjRmYmM0ODk5Zjg2YzlmN2UyNjA5OTcyNWNmOTk1NmQwOWNkNmE4OTZkNTNjYzNkYjQ1ZDU0ZDhmYmZiODc0ZTNhMmNlZjUyYTE3ZGZkYjRjZGM4YmQxYWZiOGM5ZGZlMmUwNzM1MGEwMDJiNmIwNjBiMDM1MjNkODliNmQyNmE3ODM2YWJjMWE4OTdhNjIwNzA2YjdlZTBhMjQ0NTQ4MjdkNThhZjhjNDdmYjAwOGY3NDgwYTFhMWUyNmJkOTZhMjdlNTA4YjljYWEyOTJkM2NjNjA5OGRkOGMxNDE2ZDcyYjc4YjU4MTkwZGI0ZjA0NjlmOGQ5YWYyMDBhNmNiNzRjMWMwZGE3Y2Y2YzU2MGQ0OGZlIiwiaXYiOiIxNWIwZjQxYjQyMmU0NjZkNzdhOGFmYjllM2I1YThkMCIsIlBlcm1pc3Npb24iOlt7InBhdGgiOiI5MzkiLCJwZXJtaXNzaW9ucyI6eyJjbzItZXN0aW1hdGlvbiI6WyJkZWxldGUiLCJlZGl0IiwidmlldyIsImNyZWF0ZSJdLCJjb21wYW55LW1hbmFnZW1lbnQiOlsidmlldyIsImVkaXQiLCJkZWxldGUiLCJjcmVhdGUiXSwicmVwb3J0IjpbInZpZXciLCJlZGl0IiwiZGVsZXRlIiwiY3JlYXRlIl0sImV2ZW50cyI6WyJ2aWV3IiwiZWRpdCIsImRlbGV0ZSIsImNyZWF0ZSJdLCJyb2xlcy1hbmQtcGVybWlzc2lvbiI6WyJ2aWV3IiwiZWRpdCIsImRlbGV0ZSIsImNyZWF0ZSJdLCJkZXZpY2UiOlsidmlldyIsImVkaXQiLCJkZWxldGUiLCJjcmVhdGUiXSwidXNlci1tYW5hZ2VtZW50IjpbInZpZXciLCJlZGl0IiwiZGVsZXRlIiwiY3JlYXRlIl0sInJvYWRmcmVpZ2h0IjpbInZpZXciLCJlZGl0IiwiZGVsZXRlIiwiY3JlYXRlIl0sInNlYWZyZWlnaHQiOlsidmlldyIsImVkaXQiLCJkZWxldGUiLCJjcmVhdGUiXSwiYWlyZnJlaWdodCI6WyJ2aWV3IiwiZWRpdCIsImRlbGV0ZSIsImNyZWF0ZSJdfX1dLCJpYXQiOjE3Nzg2NTQwODIsImV4cCI6MTc3ODY1NzY4Mn0.rhPuKCTym-oGJrn0IGNsS12vKpEaQVJBhKsF2u1rAsg"
 }
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser sends login POST request&amp#27;[0m         &amp#27;[90m# stepDefinition.LoginSteps.sendLoginRequest()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mlogin response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m   &amp#27;[90m# stepDefinition.LoginSteps.verifyStatusCode(int)&amp#27;[0m
-TOKEN     : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiM2U5MGIxMmE5MDBmY2QwYzEzNTRjODFkYmQwOThjNzA0OTFiMDU2YzUyY2RlNjlhMTk5M2JlY2ZmOGZhYjM0NjE2YjBjNzgzMWJjZTBhNGE0YWZlNWUxMzgwYzJmODc0NmU2MWNkMGFlMzVjZmQ0NTc3MGU3YTc2MzliZmVmZDJiNmI1ZDI2YjY1Mzk2Zjg5ZDAxZGU1Y2IwOGZiODg3YjAzZTZiNmJjMjgzYTVjZTQ0N2FjNDVkZTY2ODc3ZmFiZjc5NzAwYzEyZTA0NTg0MmU0NTdiZTcxMjQ1Y2M1YTU2NzAwODBjNDE2NjlkMDMzYmY0NDZiYmVkZWNiYjUzZWEwOWI1ZDgzZTM4ZWRlNmNlMTA2ZTY2MDdkNDUyYmFlYjA4ZDBlMTQ1ZDU4NTI1YzA1ODEzOTA4MzJmOTRlMjRiMjljNmMwMzkyODVlNmZjNTY4M2VkYjg2ZjBjMTg2NGIyZThmZjg5MTY0ODViMTc5NWU3NDc4M2UzOTE2MDQ0MzY2NDY4YjVlMjEyODMyNTQwOWZhNWM0NGE1MjVjZTRlZTFmZTVkN2I3MmIxMTM1MTM5ZjRlIiwiaXYiOiIyNjkzZDU1MjIwZTY0MTc4ZDVmMDgxZDExMmU2YWE5MiIsIlBlcm1pc3Npb24iOlt7InBhdGgiOiI5MzkiLCJwZXJtaXNzaW9ucyI6eyJjbzItZXN0aW1hdGlvbiI6WyJkZWxldGUiLCJlZGl0IiwidmlldyIsImNyZWF0ZSJdLCJjb21wYW55LW1hbmFnZW1lbnQiOlsidmlldyIsImVkaXQiLCJkZWxldGUiLCJjcmVhdGUiXSwicmVwb3J0IjpbInZpZXciLCJlZGl0IiwiZGVsZXRlIiwiY3JlYXRlIl0sImV2ZW50cyI6WyJ2aWV3IiwiZWRpdCIsImRlbGV0ZSIsImNyZWF0ZSJdLCJyb2xlcy1hbmQtcGVybWlzc2lvbiI6WyJ2aWV3IiwiZWRpdCIsImRlbGV0ZSIsImNyZWF0ZSJdLCJkZXZpY2UiOlsidmlldyIsImVkaXQiLCJkZWxldGUiLCJjcmVhdGUiXSwidXNlci1tYW5hZ2VtZW50IjpbInZpZXciLCJlZGl0IiwiZGVsZXRlIiwiY3JlYXRlIl0sInJvYWRmcmVpZ2h0IjpbInZpZXciLCJlZGl0IiwiZGVsZXRlIiwiY3JlYXRlIl0sInNlYWZyZWlnaHQiOlsidmlldyIsImVkaXQiLCJkZWxldGUiLCJjcmVhdGUiXSwiYWlyZnJlaWdodCI6WyJ2aWV3IiwiZWRpdCIsImRlbGV0ZSIsImNyZWF0ZSJdfX1dLCJpYXQiOjE3Nzg2NTA3NjEsImV4cCI6MTc3ODY1NDM2MX0.EQt9Lwh0vlC-j-ScfDtkaX1b4Re7lYwO2GdfbJDqT6k
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mresponse should contain valid token&amp#27;[0m    &amp#27;[90m# stepDefinition.LoginSteps.verifyToken()&amp#27;[0m
-WORKSPACE : 939
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mresponse should contain workspace path&amp#27;[0m &amp#27;[90m# stepDefinition.LoginSteps.verifyWorkspacePath()&amp#27;[0m
+  &amp#27;[33mThen &amp#27;[0m&amp#27;[33mlogin response status should be "200"&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mresponse should contain valid token&amp#27;[0m    &amp#27;[90m# stepDefinition.LoginSteps.verifyToken()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mresponse should contain workspace path&amp#27;[0m &amp#27;[90m# stepDefinition.LoginSteps.verifyWorkspacePath()&amp#27;[0m
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
