@@ -1,8 +1,7 @@
-base\BaseTest.class
 config\ConfigurationReader.class
-stepDefinitions\LoginSteps.class
+utils\ApiUtils.class
+base\BaseTest.class
 tests\CreateUserTests.class
 tests\CreateDeviceTests.class
 utils\TokenManager.class
 runner\TestRunner.class
-utils\ApiUtils.class
