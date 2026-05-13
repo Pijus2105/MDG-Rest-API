@@ -2,10 +2,10 @@ C:\Users\cx280\Documents\MDG-Rest-API\src\test\java\base\BaseTest.java
 C:\Users\cx280\Documents\MDG-Rest-API\src\test\java\config\ConfigurationReader.java
 C:\Users\cx280\Documents\MDG-Rest-API\src\test\java\hooks\Hooks.java
 C:\Users\cx280\Documents\MDG-Rest-API\src\test\java\pages\LoginPage.java
+C:\Users\cx280\Documents\MDG-Rest-API\src\test\java\pages\UserPage.java
 C:\Users\cx280\Documents\MDG-Rest-API\src\test\java\runner\TestRunner.java
-C:\Users\cx280\Documents\MDG-Rest-API\src\test\java\stepDefinition\CreateDevceSteps.java
+C:\Users\cx280\Documents\MDG-Rest-API\src\test\java\stepDefinition\CreateUserSteps.java
 C:\Users\cx280\Documents\MDG-Rest-API\src\test\java\stepDefinition\LoginSteps.java
 C:\Users\cx280\Documents\MDG-Rest-API\src\test\java\tests\CreateDeviceTests.java
-C:\Users\cx280\Documents\MDG-Rest-API\src\test\java\tests\CreateUserTests.java
 C:\Users\cx280\Documents\MDG-Rest-API\src\test\java\utils\ApiUtils.java
 C:\Users\cx280\Documents\MDG-Rest-API\src\test\java\utils\TokenManager.java
