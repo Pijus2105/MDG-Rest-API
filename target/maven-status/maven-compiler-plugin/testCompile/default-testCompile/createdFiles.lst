@@ -1,6 +1,2 @@
 config\ConfigurationReader.class
-utils\ApiUtils.class
-base\BaseTest.class
-tests\CreateDeviceTests.class
-utils\TokenManager.class
 runner\TestRunner.class
