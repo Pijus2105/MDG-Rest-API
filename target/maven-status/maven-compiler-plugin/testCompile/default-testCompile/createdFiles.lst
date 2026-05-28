@@ -1,3 +1,8 @@
+config\ConfigurationReader.class
+stepDefinition\LoginSteps.class
+pages\LoginPage.class
+pages\UserPage.class
 base\BaseTest.class
-tests\CreateUserTests.class
-tests\LoginTests.class
+stepDefinition\CreateUserSteps.class
+hooks\Hooks.class
+runner\TestRunner.class

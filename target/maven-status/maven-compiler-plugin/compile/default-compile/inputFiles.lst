@@ -1,8 +1,13 @@
+C:\Users\cx280\Documents\MDG-Rest-API\src\main\java\autoGenearator\DeviceSerialNumberGenerator.java
 C:\Users\cx280\Documents\MDG-Rest-API\src\main\java\autoGenearator\EmailGenerator.java
-C:\Users\cx280\Documents\MDG-Rest-API\src\main\java\autoGenearator\WorkOrderGenerator.java
-C:\Users\cx280\Documents\MDG-Rest-API\src\main\java\config\ConfigurationReader.java
 C:\Users\cx280\Documents\MDG-Rest-API\src\main\java\endpoints\Endpoints.java
+C:\Users\cx280\Documents\MDG-Rest-API\src\main\java\payloads\CreateDevice.java
 C:\Users\cx280\Documents\MDG-Rest-API\src\main\java\payloads\CreateUser.java
 C:\Users\cx280\Documents\MDG-Rest-API\src\main\java\payloads\Login.java
+C:\Users\cx280\Documents\MDG-Rest-API\src\main\java\pojo\AlarmValue.java
+C:\Users\cx280\Documents\MDG-Rest-API\src\main\java\pojo\CreateDeviceRequest.java
+C:\Users\cx280\Documents\MDG-Rest-API\src\main\java\pojo\CreateUserRequest.java
+C:\Users\cx280\Documents\MDG-Rest-API\src\main\java\pojo\LoginRequest.java
+C:\Users\cx280\Documents\MDG-Rest-API\src\main\java\pojo\SensorType.java
 C:\Users\cx280\Documents\MDG-Rest-API\src\main\java\utils\ApiUtils.java
 C:\Users\cx280\Documents\MDG-Rest-API\src\main\java\utils\TokenManager.java

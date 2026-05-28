@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="11.887" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\cx280\Documents\MDG-Rest-API\target\test-classes;C:\Users\cx280\Documents\MDG-Rest-API\target\classes;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-java\7.13.0\cucumber-java-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-core\7.13.0\cucumber-core-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-gherkin\7.13.0\cucumber-gherkin-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.13.0\cucumber-gherkin-messages-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\cx280\.m2\repository\io\cucumber\datatable\7.13.0\datatable-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-plugin\7.13.0\cucumber-plugin-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\docstring\7.13.0\docstring-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\cx280\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\cx280\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-testng\7.13.0\cucumber-testng-7.13.0.jar;C:\Users\cx280\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\cx280\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\cx280\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\cx280\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\cx280\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\cx280\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\cx280\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\cx280\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\cx280\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\cx280\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\cx280\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\cx280\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\cx280\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\cx280\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\cx280\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\cx280\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\cx280\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\cx280\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\cx280\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\cx280\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\cx280\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\cx280\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\cx280\.m2\repository\org\json\json\20240303\json-20240303.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\cx280\jdk-17.0.12\bin"/>
+    <property name="sun.java.command" value="C:\Users\cx280\AppData\Local\Temp\surefire1816942055675329210\surefirebooter-20260528114218188_3.jar C:\Users\cx280\AppData\Local\Temp\surefire1816942055675329210 2026-05-28T11-42-17_772-jvmRun1 surefire-20260528114218188_1tmp surefire_0-20260528114218188_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="TestRunner"/>
+    <property name="surefire.test.class.path" value="C:\Users\cx280\Documents\MDG-Rest-API\target\test-classes;C:\Users\cx280\Documents\MDG-Rest-API\target\classes;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-java\7.13.0\cucumber-java-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-core\7.13.0\cucumber-core-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-gherkin\7.13.0\cucumber-gherkin-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.13.0\cucumber-gherkin-messages-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\cx280\.m2\repository\io\cucumber\datatable\7.13.0\datatable-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-plugin\7.13.0\cucumber-plugin-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\docstring\7.13.0\docstring-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\cx280\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\cx280\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-testng\7.13.0\cucumber-testng-7.13.0.jar;C:\Users\cx280\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\cx280\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\cx280\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\cx280\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\cx280\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\cx280\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\cx280\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\cx280\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\cx280\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\cx280\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\cx280\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\cx280\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\cx280\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\cx280\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\cx280\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\cx280\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\cx280\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\cx280\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\cx280\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\cx280\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\cx280\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\cx280\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\cx280\.m2\repository\org\json\json\20240303\json-20240303.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\cx280"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Users\cx280\jdk-17.0.12"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\cx280\Documents\MDG-Rest-API"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\cx280\AppData\Local\Temp\surefire1816942055675329210\surefirebooter-20260528114218188_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="cx280"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\cx280\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\cx280\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="C:\Users\cx280\Documents\MDG-Rest-API"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\cx280\jdk-17.0.12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\cx280\jdk-17.0.12\bin;C:\Program Files\k6\;C:\Users\cx280\gradle-8.14.1\bin;C:\Users\cx280\apache-maven-3.9.10\bin;C:\Users\cx280\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\cx280\AppData\Local\Programs\Python\Python313\;C:\Users\cx280\AppData\Local\Programs\Python\Launcher\;C:\Users\cx280\AppData\Local\Microsoft\WindowsApps;C:\Users\cx280\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\cx280\AppData\Roaming\npm;C:\Users\cx280\AppData\Local\Programs\Git\cmd;C:\Program Files (x86)\MongoDB Atlas CLI\;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Successfully create a new device&quot;, &quot;Create Device&quot;](1)" classname="runner.TestRunner" time="7.097">
+    <system-out><![CDATA[
+@Smoke
+Scenario: Successfully create a new device                      &amp#27;[90m# src/test/resources/feature/device.feature:7&amp#27;[0m
+TOKEN       : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiZDQwYTAxZGVlZWJkZTI3NGIwYzU2MTA0YmYxMmMwMjU0NzI3NTQ3ZTBhMmMwMjQzY2UyMzI5YjQ5ODQwYTE3ZjY3ODgyODg4NjAzYzE5YmQwODU1Zjg4NWY3YmU2MjRlYjVlY2U5MTExNTlmYWJkNTNhN2Q2N2ExZjIxNjkxODViOGYyNzk3ZDMzNTkyYmNiOTM5ZjQzNWFkM2FjZjlmZDIyYWFiYmUzMWM2OWRjYmM4OWZiODFkYWRlNmU4NzFmNzBiOGY0MGNhN2YwZTM3YTliNmRkMmJkMWIyZjk1MjI0MTQ1M2VlYzkyMDM2MjM4OGRkNTRiOTdjMzY0NTMwMzk5MmIxMTgxNjRhMDIyZTczOGNiMjVkMDkzYmFiMDk2OGY2NWMwZTQ4MjcwODFlOWFjMGZjMThjZDg0OWZkZGVlMjU3OWUzOTk1ZWNlMTllMGM5Zjk4OWY4MTUxODE4MzhiZTdiNmIwM2QxY2UyODVjY2JlZGJjYjE2NmZkZmUzNTBkM2Y4Yjk1MjgwOTA0NGY0OTFmY2Q5M2NlZjMwZTEyMjQxZmE3OWZiMGIxODEzOTNjMDhhIiwiaXYiOiJhMjVmNDdkOTQ3YmY1MzM5OGY1N2I1NzMyY2NkMTcxNiIsIlBlcm1pc3Npb24iOlt7InBhdGgiOiI5MzkiLCJwZXJtaXNzaW9ucyI6eyJjbzItZXN0aW1hdGlvbiI6WyJkZWxldGUiLCJlZGl0IiwidmlldyIsImNyZWF0ZSJdLCJjb21wYW55LW1hbmFnZW1lbnQiOlsidmlldyIsImVkaXQiLCJkZWxldGUiLCJjcmVhdGUiXSwicmVwb3J0IjpbInZpZXciLCJlZGl0IiwiZGVsZXRlIiwiY3JlYXRlIl0sImV2ZW50cyI6WyJ2aWV3IiwiZWRpdCIsImRlbGV0ZSIsImNyZWF0ZSJdLCJyb2xlcy1hbmQtcGVybWlzc2lvbiI6WyJ2aWV3IiwiZWRpdCIsImRlbGV0ZSIsImNyZWF0ZSJdLCJkZXZpY2UiOlsidmlldyIsImVkaXQiLCJkZWxldGUiLCJjcmVhdGUiXSwidXNlci1tYW5hZ2VtZW50IjpbInZpZXciLCJlZGl0IiwiZGVsZXRlIiwiY3JlYXRlIl0sInJvYWRmcmVpZ2h0IjpbInZpZXciLCJlZGl0IiwiZGVsZXRlIiwiY3JlYXRlIl0sInNlYWZyZWlnaHQiOlsidmlldyIsImVkaXQiLCJkZWxldGUiLCJjcmVhdGUiXSwiYWlyZnJlaWdodCI6WyJ2aWV3IiwiZWRpdCIsImRlbGV0ZSIsImNyZWF0ZSJdfX1dLCJpYXQiOjE3Nzk5NDg3NDUsImV4cCI6MTc3OTk1MjM0NX0.-HLcPc8kbsfhLnkJ4GOCusLWsJaoMbpcaSVes0EWxqc
+WORKSPACE   : 939
+Token Generated in Hooks @Before
+TOKEN USED IN CREATE USER: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiZDQwYTAxZGVlZWJkZTI3NGIwYzU2MTA0YmYxMmMwMjU0NzI3NTQ3ZTBhMmMwMjQzY2UyMzI5YjQ5ODQwYTE3ZjY3ODgyODg4NjAzYzE5YmQwODU1Zjg4NWY3YmU2MjRlYjVlY2U5MTExNTlmYWJkNTNhN2Q2N2ExZjIxNjkxODViOGYyNzk3ZDMzNTkyYmNiOTM5ZjQzNWFkM2FjZjlmZDIyYWFiYmUzMWM2OWRjYmM4OWZiODFkYWRlNmU4NzFmNzBiOGY0MGNhN2YwZTM3YTliNmRkMmJkMWIyZjk1MjI0MTQ1M2VlYzkyMDM2MjM4OGRkNTRiOTdjMzY0NTMwMzk5MmIxMTgxNjRhMDIyZTczOGNiMjVkMDkzYmFiMDk2OGY2NWMwZTQ4MjcwODFlOWFjMGZjMThjZDg0OWZkZGVlMjU3OWUzOTk1ZWNlMTllMGM5Zjk4OWY4MTUxODE4MzhiZTdiNmIwM2QxY2UyODVjY2JlZGJjYjE2NmZkZmUzNTBkM2Y4Yjk1MjgwOTA0NGY0OTFmY2Q5M2NlZjMwZTEyMjQxZmE3OWZiMGIxODEzOTNjMDhhIiwiaXYiOiJhMjVmNDdkOTQ3YmY1MzM5OGY1N2I1NzMyY2NkMTcxNiIsIlBlcm1pc3Npb24iOlt7InBhdGgiOiI5MzkiLCJwZXJtaXNzaW9ucyI6eyJjbzItZXN0aW1hdGlvbiI6WyJkZWxldGUiLCJlZGl0IiwidmlldyIsImNyZWF0ZSJdLCJjb21wYW55LW1hbmFnZW1lbnQiOlsidmlldyIsImVkaXQiLCJkZWxldGUiLCJjcmVhdGUiXSwicmVwb3J0IjpbInZpZXciLCJlZGl0IiwiZGVsZXRlIiwiY3JlYXRlIl0sImV2ZW50cyI6WyJ2aWV3IiwiZWRpdCIsImRlbGV0ZSIsImNyZWF0ZSJdLCJyb2xlcy1hbmQtcGVybWlzc2lvbiI6WyJ2aWV3IiwiZWRpdCIsImRlbGV0ZSIsImNyZWF0ZSJdLCJkZXZpY2UiOlsidmlldyIsImVkaXQiLCJkZWxldGUiLCJjcmVhdGUiXSwidXNlci1tYW5hZ2VtZW50IjpbInZpZXciLCJlZGl0IiwiZGVsZXRlIiwiY3JlYXRlIl0sInJvYWRmcmVpZ2h0IjpbInZpZXciLCJlZGl0IiwiZGVsZXRlIiwiY3JlYXRlIl0sInNlYWZyZWlnaHQiOlsidmlldyIsImVkaXQiLCJkZWxldGUiLCJjcmVhdGUiXSwiYWlyZnJlaWdodCI6WyJ2aWV3IiwiZWRpdCIsImRlbGV0ZSIsImNyZWF0ZSJdfX1dLCJpYXQiOjE3Nzk5NDg3NDUsImV4cCI6MTc3OTk1MjM0NX0.-HLcPc8kbsfhLnkJ4GOCusLWsJaoMbpcaSVes0EWxqc
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user is logged in and token is available for device&amp#27;[0m &amp#27;[90m# stepDefinition.CreateDeviceSteps.theDeviceIsLoggedInAndTokenIsAvailable()&amp#27;[0m
+{
+    "status": {
+        "message": "Device created successfully",
+        "status_code": 201,
+        "success": true
+    },
+    "result": {
+        "id": 505,
+        "serialNumber": "EFL24A156027",
+        "deviceType": "PASSIVE",
+        "isFlightMode": false,
+        "isMultipleUse": true,
+        "createdBy": 939,
+        "manufacturerId": 3,
+        "createdFor": 939,
+        "workspacePath": "939",
+        "createdAt": "2026-05-28T06:12:28.365Z",
+        "updatedAt": "2026-05-28T06:12:28.366Z",
+        "deletedAt": null
+    }
+}
+{
+    "status": {
+        "message": "Device created successfully",
+        "status_code": 201,
+        "success": true
+    },
+    "result": {
+        "id": 505,
+        "serialNumber": "EFL24A156027",
+        "deviceType": "PASSIVE",
+        "isFlightMode": false,
+        "isMultipleUse": true,
+        "createdBy": 939,
+        "manufacturerId": 3,
+        "createdFor": 939,
+        "workspacePath": "939",
+        "createdAt": "2026-05-28T06:12:28.365Z",
+        "updatedAt": "2026-05-28T06:12:28.366Z",
+        "deletedAt": null
+    }
+}
+Create URL: https://tracker-api-dev.mdgomnia.com/api/device
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user sends a POST request to create a new device&amp#27;[0m     &amp#27;[90m# stepDefinition.CreateDeviceSteps.theusersendsaPOSTrequesttocreateanewdeviceStep()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe device response status code should be &amp#27;[0m&amp#27;[32m&amp#27;[1m201&amp#27;[0m            &amp#27;[90m# stepDefinition.CreateDeviceSteps.theDeviceResponseStatusCodeShouldBeStep(int)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Valid login returns 200 with token&quot;, &quot;Login API&quot;](2)" classname="runner.TestRunner" time="0.739">
+    <system-out><![CDATA[
+@Login @Smoke @Positive
+Scenario: Valid login returns 200 with token &amp#27;[90m# src/test/resources/feature/login.feature:7&amp#27;[0m
+Login credentials ready
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser has valid login credentials&amp#27;[0m     &amp#27;[90m# stepDefinition.LoginSteps.userHasValidCredentials()&amp#27;[0m
+Status  : 200
+Time    : 706ms
+Body    : {
+    "status": {
+        "message": "User Login successfully",
+        "status_code": 200,
+        "success": true
+    },
+    "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiMWU4M2ViZGM0MWFhNDZjZjk3OTlmMDg3NGEzMGQ4MjgxOWQxZjJiNmJhMWE2ODM3NDMwNmVjMTM4NWEwYTE2ZGU4ZjUyYzA3NDIwODcyNDJhYjNiNDg5ZDA0YjZiNjIxYjE2YTg1YzA3YmYyNTU5ZWI5MzYxNTVjNjUwMzNhMDljZmJjMjA1MDI2ZDM4NDM2ODFjNjdkZmIwYWRiN2I2NWU0YzBmNGVkMTU4YWVjYzg4NzMzYjJkMjZmZTkyMjQ1YzA2OGRlZGZkNTc1ZDMzZGNkNzlmNGM1MDg3YThjNTY4MzRjYzYyZWY4MWYyYmYxYjI3NTA4NWFkMDgwNzBiZjZjYjMxMGM5MjNmM2RjMTNhMjRmNzdhOTIyZThmZjhlYWFkOTk4Njc0OTM4OGM2NGViODQ3YWNkYWQyZmI1OGMxNjM1YWVkZGI5ZjdkYzgzMGFhMjM2YTAwNjkyZjA2ZDVjYWRlYmUxZmM0N2VjZGEwOTgyZTdhYWU5MzU3NzAxNzQ4ZjdmNTFmZWYwMGQxYzU4YjgyNDcyNWMzNWZjYzdiZWFmNDJmNzQ1YjBiNmQ1YmFlYTZhIiwiaXYiOiIwNTZkYmZjNjc3OWNjOTI4YzljNTdhOGRhNWQ3NzY2MyIsIlBlcm1pc3Npb24iOlt7InBhdGgiOiI5MzkiLCJwZXJtaXNzaW9ucyI6eyJjbzItZXN0aW1hdGlvbiI6WyJkZWxldGUiLCJlZGl0IiwidmlldyIsImNyZWF0ZSJdLCJjb21wYW55LW1hbmFnZW1lbnQiOlsidmlldyIsImVkaXQiLCJkZWxldGUiLCJjcmVhdGUiXSwicmVwb3J0IjpbInZpZXciLCJlZGl0IiwiZGVsZXRlIiwiY3JlYXRlIl0sImV2ZW50cyI6WyJ2aWV3IiwiZWRpdCIsImRlbGV0ZSIsImNyZWF0ZSJdLCJyb2xlcy1hbmQtcGVybWlzc2lvbiI6WyJ2aWV3IiwiZWRpdCIsImRlbGV0ZSIsImNyZWF0ZSJdLCJkZXZpY2UiOlsidmlldyIsImVkaXQiLCJkZWxldGUiLCJjcmVhdGUiXSwidXNlci1tYW5hZ2VtZW50IjpbInZpZXciLCJlZGl0IiwiZGVsZXRlIiwiY3JlYXRlIl0sInJvYWRmcmVpZ2h0IjpbInZpZXciLCJlZGl0IiwiZGVsZXRlIiwiY3JlYXRlIl0sInNlYWZyZWlnaHQiOlsidmlldyIsImVkaXQiLCJkZWxldGUiLCJjcmVhdGUiXSwiYWlyZnJlaWdodCI6WyJ2aWV3IiwiZWRpdCIsImRlbGV0ZSIsImNyZWF0ZSJdfX1dLCJpYXQiOjE3Nzk5NDg3NDgsImV4cCI6MTc3OTk1MjM0OH0.m9kZm2BIvZSWHGmSZCHGdODizEzWy4QgUPR47cCWklI"
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser sends login POST request&amp#27;[0m         &amp#27;[90m# stepDefinition.LoginSteps.sendLoginRequest()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mlogin response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m   &amp#27;[90m# stepDefinition.LoginSteps.verifyStatusCode(int)&amp#27;[0m
+TOKEN     : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiMWU4M2ViZGM0MWFhNDZjZjk3OTlmMDg3NGEzMGQ4MjgxOWQxZjJiNmJhMWE2ODM3NDMwNmVjMTM4NWEwYTE2ZGU4ZjUyYzA3NDIwODcyNDJhYjNiNDg5ZDA0YjZiNjIxYjE2YTg1YzA3YmYyNTU5ZWI5MzYxNTVjNjUwMzNhMDljZmJjMjA1MDI2ZDM4NDM2ODFjNjdkZmIwYWRiN2I2NWU0YzBmNGVkMTU4YWVjYzg4NzMzYjJkMjZmZTkyMjQ1YzA2OGRlZGZkNTc1ZDMzZGNkNzlmNGM1MDg3YThjNTY4MzRjYzYyZWY4MWYyYmYxYjI3NTA4NWFkMDgwNzBiZjZjYjMxMGM5MjNmM2RjMTNhMjRmNzdhOTIyZThmZjhlYWFkOTk4Njc0OTM4OGM2NGViODQ3YWNkYWQyZmI1OGMxNjM1YWVkZGI5ZjdkYzgzMGFhMjM2YTAwNjkyZjA2ZDVjYWRlYmUxZmM0N2VjZGEwOTgyZTdhYWU5MzU3NzAxNzQ4ZjdmNTFmZWYwMGQxYzU4YjgyNDcyNWMzNWZjYzdiZWFmNDJmNzQ1YjBiNmQ1YmFlYTZhIiwiaXYiOiIwNTZkYmZjNjc3OWNjOTI4YzljNTdhOGRhNWQ3NzY2MyIsIlBlcm1pc3Npb24iOlt7InBhdGgiOiI5MzkiLCJwZXJtaXNzaW9ucyI6eyJjbzItZXN0aW1hdGlvbiI6WyJkZWxldGUiLCJlZGl0IiwidmlldyIsImNyZWF0ZSJdLCJjb21wYW55LW1hbmFnZW1lbnQiOlsidmlldyIsImVkaXQiLCJkZWxldGUiLCJjcmVhdGUiXSwicmVwb3J0IjpbInZpZXciLCJlZGl0IiwiZGVsZXRlIiwiY3JlYXRlIl0sImV2ZW50cyI6WyJ2aWV3IiwiZWRpdCIsImRlbGV0ZSIsImNyZWF0ZSJdLCJyb2xlcy1hbmQtcGVybWlzc2lvbiI6WyJ2aWV3IiwiZWRpdCIsImRlbGV0ZSIsImNyZWF0ZSJdLCJkZXZpY2UiOlsidmlldyIsImVkaXQiLCJkZWxldGUiLCJjcmVhdGUiXSwidXNlci1tYW5hZ2VtZW50IjpbInZpZXciLCJlZGl0IiwiZGVsZXRlIiwiY3JlYXRlIl0sInJvYWRmcmVpZ2h0IjpbInZpZXciLCJlZGl0IiwiZGVsZXRlIiwiY3JlYXRlIl0sInNlYWZyZWlnaHQiOlsidmlldyIsImVkaXQiLCJkZWxldGUiLCJjcmVhdGUiXSwiYWlyZnJlaWdodCI6WyJ2aWV3IiwiZWRpdCIsImRlbGV0ZSIsImNyZWF0ZSJdfX1dLCJpYXQiOjE3Nzk5NDg3NDgsImV4cCI6MTc3OTk1MjM0OH0.m9kZm2BIvZSWHGmSZCHGdODizEzWy4QgUPR47cCWklI
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mresponse should contain valid token&amp#27;[0m    &amp#27;[90m# stepDefinition.LoginSteps.verifyToken()&amp#27;[0m
+WORKSPACE : 939
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mresponse should contain workspace path&amp#27;[0m &amp#27;[90m# stepDefinition.LoginSteps.verifyWorkspacePath()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Successfully create a new user&quot;, &quot;Create User&quot;](3)" classname="runner.TestRunner" time="0.974">
+    <system-out><![CDATA[
+@Smoke
+Scenario: Successfully create a new user                  &amp#27;[90m# src/test/resources/feature/user.feature:7&amp#27;[0m
+TOKEN USED IN CREATE USER: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiMWU4M2ViZGM0MWFhNDZjZjk3OTlmMDg3NGEzMGQ4MjgxOWQxZjJiNmJhMWE2ODM3NDMwNmVjMTM4NWEwYTE2ZGU4ZjUyYzA3NDIwODcyNDJhYjNiNDg5ZDA0YjZiNjIxYjE2YTg1YzA3YmYyNTU5ZWI5MzYxNTVjNjUwMzNhMDljZmJjMjA1MDI2ZDM4NDM2ODFjNjdkZmIwYWRiN2I2NWU0YzBmNGVkMTU4YWVjYzg4NzMzYjJkMjZmZTkyMjQ1YzA2OGRlZGZkNTc1ZDMzZGNkNzlmNGM1MDg3YThjNTY4MzRjYzYyZWY4MWYyYmYxYjI3NTA4NWFkMDgwNzBiZjZjYjMxMGM5MjNmM2RjMTNhMjRmNzdhOTIyZThmZjhlYWFkOTk4Njc0OTM4OGM2NGViODQ3YWNkYWQyZmI1OGMxNjM1YWVkZGI5ZjdkYzgzMGFhMjM2YTAwNjkyZjA2ZDVjYWRlYmUxZmM0N2VjZGEwOTgyZTdhYWU5MzU3NzAxNzQ4ZjdmNTFmZWYwMGQxYzU4YjgyNDcyNWMzNWZjYzdiZWFmNDJmNzQ1YjBiNmQ1YmFlYTZhIiwiaXYiOiIwNTZkYmZjNjc3OWNjOTI4YzljNTdhOGRhNWQ3NzY2MyIsIlBlcm1pc3Npb24iOlt7InBhdGgiOiI5MzkiLCJwZXJtaXNzaW9ucyI6eyJjbzItZXN0aW1hdGlvbiI6WyJkZWxldGUiLCJlZGl0IiwidmlldyIsImNyZWF0ZSJdLCJjb21wYW55LW1hbmFnZW1lbnQiOlsidmlldyIsImVkaXQiLCJkZWxldGUiLCJjcmVhdGUiXSwicmVwb3J0IjpbInZpZXciLCJlZGl0IiwiZGVsZXRlIiwiY3JlYXRlIl0sImV2ZW50cyI6WyJ2aWV3IiwiZWRpdCIsImRlbGV0ZSIsImNyZWF0ZSJdLCJyb2xlcy1hbmQtcGVybWlzc2lvbiI6WyJ2aWV3IiwiZWRpdCIsImRlbGV0ZSIsImNyZWF0ZSJdLCJkZXZpY2UiOlsidmlldyIsImVkaXQiLCJkZWxldGUiLCJjcmVhdGUiXSwidXNlci1tYW5hZ2VtZW50IjpbInZpZXciLCJlZGl0IiwiZGVsZXRlIiwiY3JlYXRlIl0sInJvYWRmcmVpZ2h0IjpbInZpZXciLCJlZGl0IiwiZGVsZXRlIiwiY3JlYXRlIl0sInNlYWZyZWlnaHQiOlsidmlldyIsImVkaXQiLCJkZWxldGUiLCJjcmVhdGUiXSwiYWlyZnJlaWdodCI6WyJ2aWV3IiwiZWRpdCIsImRlbGV0ZSIsImNyZWF0ZSJdfX1dLCJpYXQiOjE3Nzk5NDg3NDgsImV4cCI6MTc3OTk1MjM0OH0.m9kZm2BIvZSWHGmSZCHGdODizEzWy4QgUPR47cCWklI
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user is logged in and token is available&amp#27;[0m      &amp#27;[90m# stepDefinition.CreateUserSteps.theUserIsLoggedInAndTokenIsAvailableStep()&amp#27;[0m
+{
+    "status": {
+        "message": "User created successfully",
+        "status_code": 201,
+        "success": true
+    },
+    "data": null
+}
+{
+    "status": {
+        "message": "User created successfully",
+        "status_code": 201,
+        "success": true
+    },
+    "data": null
+}
+Create URL: https://customer-api-dev.mdgomnia.com/api/users
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user sends a POST request to create a new user&amp#27;[0m &amp#27;[90m# stepDefinition.CreateUserSteps.theUserSendsPostRequestToCreateNewUserStep()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status code should be &amp#27;[0m&amp#27;[32m&amp#27;[1m201&amp#27;[0m             &amp#27;[90m# stepDefinition.CreateUserSteps.theResponseStatusCodeShouldBeStep(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>

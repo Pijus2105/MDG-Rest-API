@@ -4,8 +4,9 @@ import config.ConfigurationReader;
 import endpoints.Endpoints;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import org.testng.annotations.BeforeSuite;
 import payloads.Login;
+
+import org.testng.annotations.BeforeSuite;
 import utils.ApiUtils;
 import utils.TokenManager;
 
@@ -19,7 +20,7 @@ public class BaseTest {
 
         Response response = ApiUtils.postRequest(
                 baseUrl + Endpoints.LOGIN,
-                Login.createLoginload(),
+                Login.createLoginPayload(),
                 null
         );
 
