@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="6.981" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\cx280\Documents\MDG-Rest-API\target\test-classes;C:\Users\cx280\Documents\MDG-Rest-API\target\classes;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-java\7.13.0\cucumber-java-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-core\7.13.0\cucumber-core-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-gherkin\7.13.0\cucumber-gherkin-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.13.0\cucumber-gherkin-messages-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\cx280\.m2\repository\io\cucumber\datatable\7.13.0\datatable-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-plugin\7.13.0\cucumber-plugin-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\docstring\7.13.0\docstring-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\cx280\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\cx280\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-testng\7.13.0\cucumber-testng-7.13.0.jar;C:\Users\cx280\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\cx280\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\cx280\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\cx280\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\cx280\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\cx280\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\cx280\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\cx280\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\cx280\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\cx280\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\cx280\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\cx280\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\cx280\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\cx280\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\cx280\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\cx280\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\cx280\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\cx280\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\cx280\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\cx280\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\cx280\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\cx280\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\cx280\.m2\repository\org\json\json\20240303\json-20240303.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\cx280\jdk-17.0.12\bin"/>
+    <property name="sun.java.command" value="C:\Users\cx280\AppData\Local\Temp\surefire5241958953707321609\surefirebooter-20260526150142027_3.jar C:\Users\cx280\AppData\Local\Temp\surefire5241958953707321609 2026-05-26T15-01-41_577-jvmRun1 surefire-20260526150142027_1tmp surefire_0-20260526150142027_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\cx280\Documents\MDG-Rest-API\target\test-classes;C:\Users\cx280\Documents\MDG-Rest-API\target\classes;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-java\7.13.0\cucumber-java-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-core\7.13.0\cucumber-core-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-gherkin\7.13.0\cucumber-gherkin-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.13.0\cucumber-gherkin-messages-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\cx280\.m2\repository\io\cucumber\datatable\7.13.0\datatable-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-plugin\7.13.0\cucumber-plugin-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\docstring\7.13.0\docstring-7.13.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\cx280\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\cx280\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\cx280\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\cx280\.m2\repository\io\cucumber\cucumber-testng\7.13.0\cucumber-testng-7.13.0.jar;C:\Users\cx280\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\cx280\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\cx280\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\cx280\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\cx280\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\cx280\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\cx280\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\cx280\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\cx280\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\cx280\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\cx280\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\cx280\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\cx280\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\cx280\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\cx280\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\cx280\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\cx280\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\cx280\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\cx280\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\cx280\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\cx280\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\cx280\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\cx280\.m2\repository\org\json\json\20240303\json-20240303.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\cx280"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Users\cx280\jdk-17.0.12"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\cx280\Documents\MDG-Rest-API"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\cx280\AppData\Local\Temp\surefire5241958953707321609\surefirebooter-20260526150142027_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="cx280"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\cx280\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\cx280\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="C:\Users\cx280\Documents\MDG-Rest-API"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\cx280\jdk-17.0.12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\cx280\AppData\Local\Programs\Microsoft VS Code;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\cx280\jdk-17.0.12\bin;C:\Program Files\k6\;C:\Users\cx280\gradle-8.14.1\bin;C:\Users\cx280\apache-maven-3.9.10\bin;C:\Users\cx280\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\cx280\AppData\Local\Programs\Python\Python313\;C:\Users\cx280\AppData\Local\Programs\Python\Launcher\;C:\Users\cx280\AppData\Local\Microsoft\WindowsApps;C:\Users\cx280\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\cx280\AppData\Roaming\npm;C:\Users\cx280\AppData\Local\Programs\Git\cmd;C:\Program Files (x86)\MongoDB Atlas CLI\;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testCreateDevice" classname="tests.CreateDeviceTests" time="0.037">
+    <failure message="Header value cannot be null" type="java.lang.IllegalArgumentException"><![CDATA[java.lang.IllegalArgumentException: Header value cannot be null
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:53)
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.header(RequestSpecificationImpl.groovy:869)
+	at utils.ApiUtils.postRequest(ApiUtils.java:14)
+	at tests.CreateDeviceTests.testCreateDevice(CreateDeviceTests.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[TOKEN GENERATED IN BEFORE SUITE
+TOKEN USED IN CREATE DEVICE: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiOGMyMDM2OTU4OWI1Y2NlMzQ2ZTA0YTkzMTI3YjlmMTA4OGE5OTM5ODQ0NmM4NmZiMGYyYmYyMTg4OGNiN2Y4NTQxZWZiN2I0NmExZjBmOGNjZTk2ZDI1Nzk0NmE0ZmIzYzRkYTM5MTQ1ZTBmYWE2NzY5MGNiNTJmMjRmM2U2YTJiZWU5OWIxOWMwMjNiMTBjOWQ4ZjY1MDUwMGRkNjQzMWNjODNmNjY3YmZjODI3Y2NmOTNiZjEzZjg0N2RiOGY0ZmJmZmQyYzRjYWQ5MDc4Zjc5ZDkwMTU2ZDUwYWQ4OWM3NWY0ZmM4M2JlNGExNjUxNjNmYjZjOWM5MjY0Mjk1MWNlYmI1NjAxZjE2ZDViZmRmMTE3Mjg5YTE3ZjBiNTU1YzAzMjMyZjBhYTI2Mzg2MGQwZTU5OWM4YWNiYjI3MGQ4ZmU5MGE5NjJlM2U3MjFjOTU5YmNkMDEwYzU0NWYwOTlhMTMyMzBhMWFiNGNhMWZjZGYxNGUwNmNkYWYwY2MyMDBmZmU1OGZlOTQ1OTZlYjY0YjEzYTBhNDBiNDU0N2Y4ZWE5YjYyYzg3M2RjMjZkOGUzMzYxIiwiaXYiOiIxNjBiZTUwODQyNDQ3NDM3MDM2OGZjZTI0ODIyYWJmOCIsIlBlcm1pc3Npb24iOlt7InBhdGgiOiI5MzkiLCJwZXJtaXNzaW9ucyI6eyJjbzItZXN0aW1hdGlvbiI6WyJkZWxldGUiLCJlZGl0IiwidmlldyIsImNyZWF0ZSJdLCJjb21wYW55LW1hbmFnZW1lbnQiOlsidmlldyIsImVkaXQiLCJkZWxldGUiLCJjcmVhdGUiXSwicmVwb3J0IjpbInZpZXciLCJlZGl0IiwiZGVsZXRlIiwiY3JlYXRlIl0sImV2ZW50cyI6WyJ2aWV3IiwiZWRpdCIsImRlbGV0ZSIsImNyZWF0ZSJdLCJyb2xlcy1hbmQtcGVybWlzc2lvbiI6WyJ2aWV3IiwiZWRpdCIsImRlbGV0ZSIsImNyZWF0ZSJdLCJkZXZpY2UiOlsidmlldyIsImVkaXQiLCJkZWxldGUiLCJjcmVhdGUiXSwidXNlci1tYW5hZ2VtZW50IjpbInZpZXciLCJlZGl0IiwiZGVsZXRlIiwiY3JlYXRlIl0sInJvYWRmcmVpZ2h0IjpbInZpZXciLCJlZGl0IiwiZGVsZXRlIiwiY3JlYXRlIl0sInNlYWZyZWlnaHQiOlsidmlldyIsImVkaXQiLCJkZWxldGUiLCJjcmVhdGUiXSwiYWlyZnJlaWdodCI6WyJ2aWV3IiwiZWRpdCIsImRlbGV0ZSIsImNyZWF0ZSJdfX1dLCJpYXQiOjE3Nzk3ODc5MDcsImV4cCI6MTc3OTc5MTUwN30.faQxz2ziok0dhdRb0YJK6_r1HWWjXvVF-ZAPLDBWnLs
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+</testsuite>

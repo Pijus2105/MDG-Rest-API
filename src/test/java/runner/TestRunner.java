@@ -10,7 +10,8 @@ import io.cucumber.testng.CucumberOptions;
     plugin = {
         "pretty",
         "html:target/cucumber-report.html",
-        "json:target/cucumber.json"
+        "json:target/cucumber.json",
+        "rerun:target/rerun/rerun.txt"
     }
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
